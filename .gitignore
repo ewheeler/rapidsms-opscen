@@ -1,0 +1,25 @@
+.gaedata/
+django/
+dbindexer/
+djangoappengine/
+djangotoolbox/
+index.yaml
+.DS_Store
+__version__.py
+*.pyc
+*.swp
+*~
+.project
+.pydevproject
+*.sqlite3
+logs/*
+\#*
+.#*
+*~
+\#*
+*.log*
+# eclipse stuff
+.settings
+*.csv
+*.xls
+*.sql
