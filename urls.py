@@ -4,6 +4,7 @@ from django.contrib import admin
 import settings
 
 handler500 = 'djangotoolbox.errorviews.server_error'
+admin.autodiscover()
 
 urlpatterns = patterns('',
     ('^_ah/warmup$', 'djangoappengine.views.warmup'),
